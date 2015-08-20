@@ -1,8 +1,6 @@
 # ToMd
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/to_md`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Convert Ruby Object to markdown by `#to_md` method.
 
 ## Installation
 
@@ -22,7 +20,20 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```rb
+require 'to_md'
+
+using ToMd
+
+puts ['one', 'two'].to_md
+# - one
+# - two
+
+puts [['#', 'japanese'], [1, '一']].to_md
+# | # | japanese |
+# | --- | --- |
+# | 1 | 一 |
+```
 
 ## Development
 
@@ -38,4 +49,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
