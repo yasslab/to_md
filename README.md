@@ -36,6 +36,17 @@ puts [['#', 'japanese'], [1, '一']].to_md
 # | # | japanese |
 # | --- | --- |
 # | 1 | 一 |
+
+puts [{id: 1, name: 'John'}, {id: 2, name: 'David'}].to_md
+# | id | name |
+# | --- | --- |
+# | 1 | John |
+# | 2 | David |
+
+puts [[:name, :age], {id: 3, name: 'Robert', age: 20}].to_md
+# | name | age |
+# | --- | --- |
+# | Robert | 20 |
 ```
 
 ## Development
