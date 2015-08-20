@@ -1,4 +1,5 @@
 # ToMd
+[![Build Status](https://travis-ci.org/yasslab/to_md.svg)](https://travis-ci.org/yasslab/to_md)
 
 Convert Ruby Object to markdown by `#to_md` method.
 
