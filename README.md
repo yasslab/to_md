@@ -1,5 +1,7 @@
 # ToMd
 [![Build Status](https://travis-ci.org/yasslab/to_md.svg)](https://travis-ci.org/yasslab/to_md)
+[![Code Climate](https://codeclimate.com/github/yasslab/to_md/badges/gpa.svg)](https://codeclimate.com/github/yasslab/to_md)
+[![Test Coverage](https://codeclimate.com/github/yasslab/to_md/badges/coverage.svg)](https://codeclimate.com/github/yasslab/to_md/coverage)
 
 Convert Ruby Object to markdown by `#to_md` method.
 
